@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background-color: #1b1b1b1b;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    background-color: aquamarine;    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+   margin: 5px;
+   width: 200px;
+   font-size: 25px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#resultado{
+    color: red;
+    font-size: 35px;
+}
